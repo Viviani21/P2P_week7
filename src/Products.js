@@ -8,7 +8,7 @@ const Products=()=>{
         {
             id: 1,
             name:"Mint",
-            image:"./public/images/3.jpg",
+            image:"./images/3.jpg",
             description:" Kraut",
             packaging:"1",
             weight: "1",
@@ -18,7 +18,7 @@ const Products=()=>{
         {
             id: 2,
             name:"Lavender",
-            image:"./public/images/11.jpg",
+            image:"./images/11.jpg",
             description:"Kraut",
             packaging:"2",
             weight: "1",
@@ -28,7 +28,7 @@ const Products=()=>{
         {
             id: 3,
             name:"Rosemary",
-            image:"./public/images/6.jpg",
+            image:"./images/6.jpg",
             description:"Kraut",
             packaging:"3",
             weight: "1",
@@ -38,7 +38,7 @@ const Products=()=>{
         {
             id: 4,
             name:"Parsley",
-            image:"./public/images/9.jpg",
+            image:"./images/9.jpg",
             description:"Kraut ",
             packaging:"4",
             weight: "1",
@@ -48,7 +48,7 @@ const Products=()=>{
         {
             id: 5,
             name:"Basil",
-            image:"./public/images/8.jpg",
+            image:"./images/8.jpg",
             description:"Kraut",
             packaging:"5",
             weight: "1",
@@ -58,7 +58,7 @@ const Products=()=>{
         {
             id: 6,
             name:"Camomile",
-            image:"./public/images/1.jpg",
+            image:"./images/1.jpg",
             description:"Kraut",
             packaging:"6",
             weight: "1",
@@ -68,7 +68,7 @@ const Products=()=>{
         {
             id: 7,
             name:"Dill",
-            image:"./public/images/17.jpg",
+            image:"./images/17.jpg",
             description:"Kraut",
             packaging:"",
             weight: "1",
@@ -78,7 +78,7 @@ const Products=()=>{
         {
             id: 8,
             name:"Cloves",
-            image:"./public/images/14.jpg",
+            image:"./images/14.jpg",
             description:"Kraut",
             packaging:"8",
             weight: "1",
@@ -88,7 +88,7 @@ const Products=()=>{
         {
             id: 9,
             name:"Turmeric",
-            image:"../images/18.jpg",
+            image:"./images/18.jpg",
             description:"Kraut",
             packaging:"9",
             weight: "1",
@@ -98,7 +98,7 @@ const Products=()=>{
         {
             id: 10,
             name:"Garlic",
-            image:"./public/images/4.jpg",
+            image:"./images/4.jpg",
             description:"Kraut",
             packaging:"10",
             weight: "1",
