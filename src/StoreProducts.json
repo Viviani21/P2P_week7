@@ -2,7 +2,7 @@
     {
         "id": "1",
         "name":"Mint",
-        "image":"./images/3.jpg",
+        "image":"/p2p_week7/images/3.jpg",
         "description":" Kraut",
         "packaging":"1",
         "weight": "1",
@@ -12,7 +12,7 @@
     {
         "id": "2",
         "name":"Lavender",
-        "image":"./images/11.jpg",
+        "image":"/p2p_week7/images/11.jpg",
         "description":"Kraut",
         "packaging":"2",
         "weight": "1",
@@ -22,7 +22,7 @@
     {
         "id": 3,
         "name":"Rosemary",
-        "image":"./images/6.jpg",
+        "image":"/p2p_week7/images/6.jpg",
         "description":"Kraut",
         "packaging":"3",
         "weight": "1",
@@ -32,7 +32,7 @@
     {
         "id":"4",
         "name":"Parsley",
-        "image":"./images/9.jpg",
+        "image":"/p2p_week7/images/9.jpg",
         "description":"Kraut ",
         "packaging":"4",
         "weight": "1",
@@ -42,7 +42,7 @@
     {
         "id": "5",
         "name":"Basil",
-        "image":"./images/8.jpg",
+        "image":"/p2p_week7/images/8.jpg",
         "description":"Kraut",
         "packaging":"5",
         "weight": "1",
@@ -52,7 +52,7 @@
     {
         "id": "6",
         "name":"Camomile",
-        "image":"./images/1.jpg",
+        "image":"/p2p_week7/images/1.jpg",
         "description":"Kraut",
         "packaging":"6",
         "weight": "1",
@@ -62,7 +62,7 @@
     {
         "id": "7",
         "name":"Dill",
-        "image":"./images/17.jpg",
+        "image":"/p2p_week7/images/17.jpg",
         "description":"Kraut",
         "packaging":"7",
         "weight": "1",
@@ -72,7 +72,7 @@
     {
         "id": "8",
         "name":"Cloves",
-        "image":"./images/14.jpg",
+        "image":"/p2p_week7/images/14.jpg",
         "description":"Kraut",
         "packaging":"8",
         "weight": "1",
@@ -82,7 +82,7 @@
     {
         "id": "9",
         "name":"Turmeric",
-        "image":"./images/18.jpg",
+        "image":"/p2p_week7/images/18.jpg",
         "description":"Kraut",
         "packaging":"9",
         "weight": "1",
@@ -92,7 +92,7 @@
     {
         "id": "10",
         "name":"Garlic",
-        "image":"./images/4.jpg",
+        "image":"/p2p_week7/images/4.jpg",
         "description":"Kraut",
         "packaging":"10",
         "weight": "1",
