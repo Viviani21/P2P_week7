@@ -54,8 +54,6 @@ const FilterFunc = () => {
     <div className='container mt-5'>
         <h1>Please select!</h1>
         
-        {/* <button type="button" className="btn btn-primary me-3 mb-3" onClick={()=>setItems(StoreProducts)}>All Products</button> */}
-   
         <select name="categories" className="categories btn mb-3" onChange={categoryItem}>
             
         <optgroup label="Categories"> 
