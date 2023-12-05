@@ -1,10 +1,20 @@
 import React,{useState} from 'react';
 import SearchBar from './SearchBar';
+import { NavLink} from 'react-router-dom';
+
+
 
 const Navbar = () => {
 
+  const navLinkStyles = ({isActive})=>{
+    return{
+        color : isActive ? ' #44ae5d' : 'rgba(79, 53, 48, 1)',
+         
+    }
+}
   
   return (
+    <>
    
     <nav className="nav-links">
       
@@ -17,29 +27,29 @@ const Navbar = () => {
  
      <ul >     
        <li >
-         <a className="active" href="/">Home</a>
+         <NavLink  style = {navLinkStyles} to='/' >Home</NavLink>
        </li>
        <li >
-         <a href="/aboutUs">About Us</a>
+         <NavLink style = {navLinkStyles} to="/aboutUs">About Us</NavLink>
        </li>
        <li >
-         <a  href="./Products" >Products</a>
+         <NavLink  style = {navLinkStyles} to="/products" >Products</NavLink>
        </li>
        <li >
-         <a  href="/contact">Contact</a>
+         <NavLink style = {navLinkStyles} to="/contact">Contact</NavLink>
        </li>
        <li >
-         <a  href="/blog">Blog</a>
+         <NavLink  style = {navLinkStyles} to="/blog">Blog</NavLink>
        </li>
        <li>
-         <a   href="/fqa">FAQ</a>
+         <NavLink  style = {navLinkStyles} to="/fqa">FAQ</NavLink>
        </li>
      </ul>
      
-     <SearchBar/> 
-    
+      <SearchBar/>  
+     
 </nav> 
-    
+</>
   );
 };
 

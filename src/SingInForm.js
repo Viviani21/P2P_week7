@@ -1,4 +1,5 @@
 import React,{useState, useEffect} from 'react';
+import {useNavigate} from 'react-router-dom'
 import CustomModal from './CustomModal';
 
 //SingIn Form Component
@@ -6,6 +7,7 @@ const SingInForm = () =>{
     const [showModal, setShowModal] = useState(false);
     const [formData, setFormData] = useState([]);
     const [signInData, setSignInData] = useState([]);
+    const navigate = useNavigate();
     
 //----------------------------------------------------//    
 // stores the data from the form in object array in the local storage
@@ -65,6 +67,8 @@ const SingInForm = () =>{
 //close the Modal
     const handleCloseModal = () => {
         setShowModal(false);
+        navigate('/');
+
       };
 
 //----------------------------------------------------//
